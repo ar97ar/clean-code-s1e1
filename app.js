@@ -35,7 +35,7 @@ let createNewTaskElement = function (taskString) {
   editButton.className = "list__task_btn-edit";
 
   deleteButton.className = "list__task_btn-delete";
-  deleteButtonImg.className = "list__task_btn-delete";
+  deleteButtonImg.className = "list__task_img-delete";
 
   deleteButtonImg.src = "./remove.svg";
   deleteButtonImg.alt = "delete-button";
@@ -156,7 +156,7 @@ let bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
 //cycle over incompleteTaskHolder ul list items
 //for each list item
 for (let i = 0; i < incompleteTaskHolder.children.length; i++) {
-  //bind events to list items chldren(tasksCompleted)
+  //bind events to list items children(tasksCompleted)
   bindTaskEvents(incompleteTaskHolder.children[i], taskCompleted);
 }
 
