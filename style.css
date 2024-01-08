@@ -1,11 +1,11 @@
 /* Basic Style */
 
 li, h3 {
-  list-style:none;
+  list-style: none;
 }
 
 input,button{
-  outline:none;
+  outline: none;
 }
 
 .body {
@@ -112,7 +112,7 @@ input,button{
 
 /* Task list */
 .todo__list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
@@ -163,12 +163,12 @@ li > input[type="text"] {
 
 /* Edit Task */
 .list__task-input {
-  display:none
+  display: none
 }
 
 .list__task-input_edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list__task-value_edit {
