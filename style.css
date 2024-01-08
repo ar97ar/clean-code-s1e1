@@ -125,11 +125,9 @@ button{
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-li > * {
   vertical-align: middle;
 }
+
 
 .list__task-check {
   margin: 0 10px;
